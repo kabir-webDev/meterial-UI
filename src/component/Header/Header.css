@@ -1,5 +1,5 @@
 .header{
-    background: #69b9ee;
+    background: #2C3337;
     display: flex;
     align-items: center;
 }
@@ -24,4 +24,10 @@
     width: 100%;
     border-radius: 5px;
 
+}
+.search_icon{
+    background: tomato;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2px;
 }

@@ -8,8 +8,8 @@ function Header() {
             <img className="logo-image" src={Logo} alt="Pokam"/>
 
             <div className="header_search">
-                <input type="text" className="header__input"/>
-                <span className="search_icon">W</span>
+                <input type="text" placeholder="search your tour" className="header__input"/>
+                <button className="search_icon">W</button>
             </div>
         </div>
     )

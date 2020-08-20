@@ -1,11 +1,13 @@
-import React from 'react';
-import './App.css';
-import Header from './component/Header/Header';
+import React from "react";
+import "./App.css";
+import Material from "./component/Material-UI-Compo/Material";
+// import Header from './component/Header/Header';
 
 function App() {
   return (
-    <div className="app">
-      <Header/>
+    <div className="App">
+      {/* <Header/> */}
+      <Material />
     </div>
   );
 }
