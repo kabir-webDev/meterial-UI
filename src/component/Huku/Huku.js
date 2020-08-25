@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 
-const initialState = 0;
+const initialState = "";
 const reducer = (state, action) => {
   switch (action) {
     case "INCREASE":
