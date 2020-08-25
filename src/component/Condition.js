@@ -1,11 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Walah from "./Walah";
-
-const If = ({ condition, children }) => {
-  if (condition) return children;
-  return null;
-};
+import If from "./If";
 
 function Condition() {
   const [show, setShow] = useState(false);
