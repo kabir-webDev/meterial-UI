@@ -2,20 +2,19 @@ import React from "react";
 import { useState } from "react";
 
 function Condition() {
-  const [show, setShow] = useState(false);
-
-  const handleClick = () => {
-    console.log("Clicked bitch");
-  };
-
+  const [show, setShow] = useState(true);
   return (
-    <div>
-      (show ? <div>This is a rendering area.</div> :{" "}
-      <div>Here we'll be doing Conditional Rendering</div>)
-      <br />
-      {show}
-      <button onClick={() => handleClick(setShow(true))}>Click here</button>
-    </div>
+    <>
+      <div>
+        Lets Check this out------{" "}
+        <button onClick={() => setShow(false)}>Click Bro</button>
+      </div>
+      {show ? (
+        <div>In the langs In the true</div>
+      ) : (
+        <div>In the langs In the false</div>
+      )}
+    </>
   );
 }
 
