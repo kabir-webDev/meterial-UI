@@ -1,8 +1,14 @@
 import React from "react";
 import { useState } from "react";
+import Walah from "./Walah";
+
+const If = ({ condition, children }) => {
+  if (condition) return children;
+  return null;
+};
 
 function Condition() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <>
       <div>
@@ -14,6 +20,9 @@ function Condition() {
       ) : (
         <div>In the langs In the false</div>
       )}
+      <If condition={show}>
+        <Walah />
+      </If>
     </>
   );
 }
