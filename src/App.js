@@ -5,11 +5,13 @@ import Material from "./component/Material-UI-Compo/Material";
 import Navbar from "./component/Material-UI-Compo/Navbar";
 import Huku from "./component/Huku/Huku";
 import Condition from "./component/Condition";
+import Fetch from "./component/DataFetching/Fetch";
 
 function App() {
   return (
     <div className="App">
-      <Condition />
+      {/* <Condition /> */}
+      <Fetch />
     </div>
   );
 }
