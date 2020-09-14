@@ -9,11 +9,6 @@ import Condition from "./component/Condition";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
-      {/* <Header/> */}
-      {/* <div className="margin"><Material /></div> */}
-      {/* <Huku /> */}
-
       <Condition />
     </div>
   );
