@@ -1,7 +1,32 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
-.margin{
-  margin-left: 10%;
-  margin-right: 10%;
+body {
+  background-color: rgb(246, 253, 151);
+}
+.container {
+  display: flex;
+}
+.sidebar__nav {
+  width: 20vw;
+  height: 93vh;
+  background-color: rgb(225, 151, 243);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.body__content {
+  width: 80vw;
+  height: 93vh;
+  background-color: rgb(253, 92, 29);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-self: center;
+}
+.content__item {
+  align-self: center;
 }

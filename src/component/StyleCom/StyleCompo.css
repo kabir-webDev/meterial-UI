@@ -1,0 +1,9 @@
+div {
+  color: tomato;
+}
+.back {
+  height: 50vh;
+  width: 20vw;
+  background-color: rgb(240, 254, 255);
+  border-radius: 10px;
+}

@@ -1,17 +1,24 @@
 import React from "react";
 import "./App.css";
-import Material from "./component/Material-UI-Compo/Material";
-// import Header from './component/Header/Header';
-import Navbar from "./component/Material-UI-Compo/Navbar";
-import Huku from "./component/Huku/Huku";
-import Condition from "./component/Condition";
-import Fetch from "./component/DataFetching/Fetch";
+import StyleCompo from "./component/StyleCom/StyleCompo";
 
 function App() {
   return (
     <div className="App">
-      {/* <Condition /> */}
-      <Fetch />
+      <div className="container">
+        <div className="sidebar__nav">Sidebar</div>
+        <div className="body__content">
+          <div className="content__item">
+            <StyleCompo />
+          </div>
+          <div className="content__item">
+            <StyleCompo />
+          </div>
+          <div className="content__item">
+            <StyleCompo />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
